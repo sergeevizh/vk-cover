@@ -2,8 +2,8 @@
 
     // Config
     $group_id = 0; // Group ID
-    $token = "insert_here"; // Service key from config of VK-group
-    $service_key = "insert_here"; // Token from VK
+    $token = "insert_here"; // Token from VK
+    $service_key = "insert_here"; // Service key from config of VK-group
     $version = "5.80"; // Version of VK-api
 
     // Function for making request to VK api
@@ -77,8 +77,8 @@
         // If no comments - insert standart image
         $waiter = true;
         $lastCom = $lastLike;
-        $lastCom["first_name"] = "Ждём ваших";
-        $lastCom["last_name"] = "Комментариев";
+        $lastCom["first_name"] = "Wait for";
+        $lastCom["last_name"] = "Your comments";
     }
 
     // Save user images
